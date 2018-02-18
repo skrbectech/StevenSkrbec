@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:title="@string/nav_intro" />
+        <item
+            android:id="@+id/nav_propro"
+            android:icon="@drawable/ic_developer_mode_black_24dp"
+            android:title="@string/nav_propro" />
+        <item
+            android:id="@+id/nav_experties"
+            android:icon="@drawable/ic_phone_android_black_24dp"
+            android:title="@string/nav_experties" />
+
+        <item
+            android:id="@+id/nav_proexp"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="@string/nav_proexp" />
+
+        <item
+            android:id="@+id/nav_freelance"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/nav_freelance" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_me"
+                android:title="@string/nav_about_me" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>
